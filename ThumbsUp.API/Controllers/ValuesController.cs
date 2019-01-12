@@ -21,6 +21,8 @@ namespace ThumbsUp.API.Controllers
             _context = context;
 
         }
+
+        [AllowAnonymous]
         // GET api/values
         [HttpGet]
         //the Iactionresult allows to return http responses
